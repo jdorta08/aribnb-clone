@@ -9,7 +9,7 @@ const Card = () => {
             <div className="card--badge sould--out">SOLD OUT</div>
           )}
           <div className="time--img-wrapper">
-            <img src={`../Imgaes/${dataCard.image}`}></img>
+            <img src={dataCard.image.cover}></img>
             <h3>{dataCard.title}</h3>
           </div>
           <div className="stats--wrapper">
@@ -17,7 +17,7 @@ const Card = () => {
             <p> ${dataCard.price}</p>
             <div className="rating--wrapper">
               <p> {dataCard.stats.rating}</p>
-              <span>starts from {dataCard.stats.ratingCount} reviews</span>
+              <span>stars from {dataCard.stats.ratingCount} reviews</span>
             </div>
           </div>
         </div>
