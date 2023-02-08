@@ -14,7 +14,9 @@ const Card = () => {
           </div>
           <div className="stats--wrapper">
             <h4>{dataCard.country}</h4>
-            <p> ${dataCard.price}</p>
+            <p>
+              <b>${dataCard.price}</b>{" "}
+            </p>
             <div className="rating--wrapper">
               <p> {dataCard.stats.rating}</p>
               <span>stars from {dataCard.stats.ratingCount} reviews</span>
