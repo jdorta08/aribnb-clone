@@ -82,15 +82,12 @@ button {
   border: none;
   border-radius: 5px;
 }
-.inner-section {
-  max-width: 90%;
-  margin: 0 auto;
-  padding: 2%;
+section {
+  padding: 2% 0;
 }
 //MOBILE STYLES
 @media only screen and (max-width: 600px) {
-  .inner-section {
-    width: 90%;
+  section {
     padding: 8% 2%;
   }
   h1 {
@@ -109,5 +106,7 @@ button {
 
 //IMPORTS ONLY
 @import "./navigation.scss";
-@import "./card.scss"; //fonts
+@import "./hero.scss";
+@import "./card.scss";
+//fonts
 //FILE SCSS
