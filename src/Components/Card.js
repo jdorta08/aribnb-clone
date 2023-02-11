@@ -2,7 +2,7 @@ import data from "./data";
 
 const Card = () => {
   return (
-    <div className="card--container">
+    <div className="card--container inner-section">
       {data.map((dataCard) => (
         <div className="content--card--wrapper">
           {dataCard.openSpots === 0 && (
